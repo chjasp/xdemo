@@ -1,0 +1,19 @@
+.card-wrapper {
+    height:70%;
+    width: 86%;
+    border-radius: 1.5rem;
+    
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.pic {
+    height: 80%;
+    align-self: center;
+}

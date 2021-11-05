@@ -1,0 +1,76 @@
+button {
+  border: none;
+}
+
+.btn-wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.superlike {
+    height: 47px;
+    width: 47px;  
+
+    margin-top: 0.8rem;
+    border-radius: 50%;
+    background: linear-gradient(140deg, #FC3FB7, #CA0EE7);
+    box-shadow: #FC3FB7 0px 7px 20px -5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.star {
+    margin-bottom: 3px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.like {
+    height: 40px;
+    width: 40px;  
+    box-shadow: #FC3A81 0px 7px 20px -8px;
+
+    margin-top: 0.8rem;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.heart {
+    font-size: 20px;
+    color: #FC3A81;
+}
+
+.dislike {
+    height: 40px;
+    width: 40px;  
+    box-shadow: rgb(47, 149, 193) 0px 7px 20px -8px;
+
+    margin-top: 0.8rem;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cross {
+    font-size: 20px;
+    color: rgba(44, 189, 245, 1);
+}
